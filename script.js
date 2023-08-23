@@ -13,4 +13,17 @@ for(i=0;i<rows;i++){
     
 
 }}
-grid(container,32,32)
+
+/*
+box32=document.querySelectorAll(".box")
+box32.forEach(box => {box.setAttribute('id','box32')
+    
+});
+*/
+
+grid(container,16,16)
+box16=document.querySelectorAll(".box");
+box16.forEach(box => {box.setAttribute('id','box16')
+    
+});
+
