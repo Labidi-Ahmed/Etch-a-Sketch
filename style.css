@@ -27,12 +27,24 @@ body {
 
     
   }
-.rgbBut{
+  .gridLines,.rgbBut{
     padding: 10px;
-    color:red;
-    background-color: #00c9a7;
+    color:#fff;
+    background-color: #845ec2;
+    border: 2px solid #fff;
 }
 
+.gridLinesTgl,.rgb{
+    padding: 10px;
+    color:#845ec2;
+    background-color:#fff;
+
+}
+
+.boxTgl{
+    border: 1px solid rgb(0,0,0,0.5);
+
+}
 
 
 #box{
@@ -126,5 +138,6 @@ body{
     height: 100vh;
     
 }
+
 
 
